@@ -30,6 +30,8 @@
             {{content}}
         </section>
 
+        <div class="fb-like" data-href="{{@blog.url}}/{{slug}}" data-layout="standard" data-action="like" data-show-faces="true"></div>
+
         <footer class="post-footer">
 
         {{! Everything inside the #author tags pulls data from the author }}
@@ -72,10 +74,7 @@
                     <span class="hidden">Google+</span>
                 </a>
             </section>
-
         </footer>
-
-        <div class="fb-like" data-href="{{@blog.url}}/{{slug}}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
         <div id="fb_comments_section"></div>
         <div
